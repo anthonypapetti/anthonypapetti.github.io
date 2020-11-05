@@ -176,8 +176,19 @@ a.nav-link{
 #projects h3{
     padding-top: 70px;
 }
-#projects p{
+#projects em{
 	font-family: var(--main-font-family);
+	font-size:1.5rem;
+  font-weight: bold;
+	padding: 10px;
+}
+#projects p{
+  font-family: var(--main-font-family);
+	font-size: 1.2rem;
+	padding: 10px;
+}
+#projects li{
+  font-family: var(--main-font-family);
 	font-size:1.2rem;
 	padding: 10px;
 }
@@ -194,7 +205,7 @@ a.nav-link{
 .card{
 	display: flex;
 	flex-direction: column;
-	margin: 20px;
+	margin: 40px;
 	width: 200px;
 	height:250px;
 	border-radius:12px;
@@ -250,6 +261,28 @@ a.nav-link{
 	font-family: var(--main-font-family);
 }
 
+/*──────────────────
+      Resume
+──────────────────*/
+
+#resume{
+	margin: auto;
+	padding-bottom: 20px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: var(--main-fonts-color);
+}
+	
+#resume p{
+	padding:10px;
+	text-align:center;
+	font-size:1.2rem;
+	font-family: var(--main-font-family);
+}
+
 /*────────────────── 
        footer
 ──────────────────*/
@@ -272,7 +305,6 @@ footer {
 	font-size: 1rem;
 	letter-spacing: 1px;
     text-decoration: none;
-	font-family: var(--main-font-family);
 }
 
 .copyright a:hover{
